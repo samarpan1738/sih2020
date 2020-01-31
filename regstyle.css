@@ -1,0 +1,141 @@
+body{
+	background-color: #e8f3f8;
+	font: 1em/1.5 sans-serif;
+
+}
+h1{
+	text-align: center;
+	font-size:50px;
+	color:#00004d;
+
+}
+form{
+	margin: 20px auto;
+	 width: 320px;
+	 color: steelblue;
+}
+input{
+padding: 10px;
+font-size: inherit;	
+}
+
+	input[type="email"]{
+	background-repeat:no-repeat;
+background-position:300px;
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+border: 2px solid steelblue;
+background:#FAF6D9;
+}
+
+input[type="number"]{
+	background-repeat:no-repeat;
+background-position:300px;
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+border: 2px solid steelblue;
+background:#FAF6D9;
+
+	}
+	input[type="pin"]{
+	background-repeat:no-repeat;
+background-position:300px;
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+border: 2px solid steelblue;
+background:#FAF6D9;
+	}
+	input[type="text"]{
+	background-repeat:no-repeat;
+background-position:300px;
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+border: 2px solid steelblue;
+background:#FAF6D9;
+
+	}
+	input[type="date"]{
+	background-repeat:no-repeat;
+background-position:300px;
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+border: 2px solid steelblue;
+background:#FAF6D9;
+
+	}
+	input[type="password"]{
+	background-repeat:no-repeat;
+background-position:300px;
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+border: 2px solid steelblue;
+background:#FAF6D9;
+
+	}
+	
+	input[type="submit"]{
+		width: 344px;
+		height: 45;
+		border: none;
+		font-family:Cursive;
+	    background: steelblue;
+	    color: white;
+	    line-height:1;
+	    border-radius:5px;
+
+
+	}
+	input[type="submit"]:focus{
+		width: 344px;
+		height: 45;
+		border: none;
+	    background:white ;
+	    color: steelblue;
+	}
+input:focus {
+	background: white;
+}	
+select {
+background-repeat:no-repeat;
+background-position:300px;
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+border: 2px solid steelblue;
+background:#FAF6D9;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
