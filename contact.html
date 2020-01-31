@@ -109,30 +109,18 @@
     };
     btn.addEventListener('click', () => {
     console.log("Button clicked")
-    // fetch('http://localhost:2000/message', {
-    //   method: 'post',
-    //   // mode:"no-cors",
-    //   headers: {
-    //     'Accept': 'application/json',
-    //     'Content-Type': 'application/json',
-    //     "Access-Control-Allow-Origin" : "*",
-    //     "crossorigin":"anonymous"
-    //   },
-    //   body: JSON.stringify(data)
-    // }).then(function(response) {
-    //   console.log(response)
-    // })
-    const options = {
-      headers: {'Accept': 'application/json',
-          'Content-Type': 'application/json',
-          "Access-Control-Allow-Origin" : "*",
-          // "crossorigin":"anonymous"
-        }
+    fetch('https://allahmeetsram.herokuapp.com/message'
+    , {
+      method: 'post',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'  
+      },
+      body: JSON.stringify(data)
     }
-    axios.post('http://localhost:2000/message',data,options).then(res=>console.log(res));
-
-
-
+    ).then(function(response) {
+      return response.json()
+    }).then(data=>console.log(data))
 })
   </script>
 </body>
